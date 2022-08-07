@@ -12,6 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+div.showpointer :hover{
+    cursor: pointer;
+    /* border: 12px solid; */
+    height: 85px;
+    width: 85px;
+    background-color: aqua;
+    border-radius: 15px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +35,29 @@
 .App-link {
   color: #61dafb;
 }
+/* #E7F6F2
+#F5F0BB */
+body{
+    text-align: center;
+}
+nav{
+    text-align: left;
+}
+.sliding-window{
+    background-color: #E7F6F2;
+    padding: 56px 0%;
+}
+.notice-row{
+    background-color: #F5F0BB;
+    padding: 7% 15%;
+}
+.about-row{
+    background-color: #E7F6F2;
+    padding: 7% 15%;
+}
+
+
+ 
 
 @keyframes App-logo-spin {
   from {
